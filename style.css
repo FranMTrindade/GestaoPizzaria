@@ -1,0 +1,46 @@
+body{
+    margin:auto;
+    width: 60%;
+}
+
+header{
+    display: flex;
+    justify-content: center; /* tudo que esta no header ficara no centro */
+    background-color: white;
+    color: red;
+    text-align: center;
+}
+
+Header ul li{
+    list-style: none;
+}
+
+section form ul li{
+    list-style: none;
+}
+
+section form ul li label{
+    font-size: 23px;
+
+}
+
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: medium
+
+}
+
+section button{
+    margin: 8px;
+    font-size: 23px;
+}
+
+table, th, td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    border-radius: 8px;
+    font-size: medium;
+
+}
