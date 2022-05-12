@@ -5,10 +5,7 @@ body{
 
 header{
     display: flex;
-    justify-content: center; /* tudo que esta no header ficara no centro */
-    background-color: white;
-    color: red;
-    text-align: center;
+    justify-content: center;
 }
 
 Header ul li{
@@ -17,6 +14,7 @@ Header ul li{
 
 section form ul li{
     list-style: none;
+    
 }
 
 section form ul li label{
@@ -44,3 +42,19 @@ table, th, td{
     font-size: medium;
 
 }
+
+.container{
+    
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        width: 400px;
+        height: 600px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 20px;
+        box-shadow: 0 0 10px black;
+        margin-top: 50px;
+        margin-left: 200px;
+        
+    }
